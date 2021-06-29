@@ -27,7 +27,7 @@ pipeline {
     
     stage('deploy'){
       steps{
-        echo 'Deploying the appilcation...'
+        echo 'Deploying the application...'
         
         script{
           dockerImage = docker.build imagename
